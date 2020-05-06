@@ -1,2 +1,3 @@
 # Sentiment-Prediction
-A simple project for sentiment prediction using BERT.
+
+A simple project with Flask API for sentiment prediction using BERT
