@@ -1,16 +1,13 @@
-import joblib
-import time
-import functools
-
 import config
 import torch
-from model import BERTBaseUncased
-import torch.nn as nn
-
 import flask
+import time
 from flask import Flask
 from flask import request
-
+from model import BERTBaseUncased
+import functools
+import torch.nn as nn
+import joblib
 
 
 app = Flask(__name__)
